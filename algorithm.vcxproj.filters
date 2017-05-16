@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="datastruct">
+      <UniqueIdentifier>{c4c79b80-9807-475a-8db5-ef228d004804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dynamic">
+      <UniqueIdentifier>{5357df74-38c6-4745-afbb-bc42d33f24bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graph">
+      <UniqueIdentifier>{6e5b84a5-e5b5-41a9-a627-23734c6971e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="greedy">
+      <UniqueIdentifier>{94dd74ff-b244-41bf-8cf5-34648a76a536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="recursion">
+      <UniqueIdentifier>{37066a28-b12a-4ca8-8df5-336465abd67b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{ee7ab977-2c35-44bc-8474-cdb65a9b7399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include">
+      <UniqueIdentifier>{913deab6-f4c0-4fa8-8ab1-fa0ec9cc9d4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\src">
+      <UniqueIdentifier>{cd2559c4-dea6-4934-a34c-89f6ef00d8d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest">
+      <UniqueIdentifier>{24dbc3ee-88c5-48a7-8914-daa219eb9314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest\internal">
+      <UniqueIdentifier>{6a56d92b-d26c-4e4f-b2da-2bdc07461c6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc">
+      <UniqueIdentifier>{05602bc4-e932-40db-b88f-ce746e593b95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{db7849ec-f39e-48b7-8092-8ae6db76d627}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gtest\include\gtest\internal\gtest-death-test-internal.h">
+      <Filter>gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\internal\gtest-filepath.h">
+      <Filter>gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\internal\gtest-internal.h">
+      <Filter>gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\internal\gtest-linked_ptr.h">
+      <Filter>gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\internal\gtest-param-util.h">
+      <Filter>gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\internal\gtest-param-util-generated.h">
+      <Filter>gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\internal\gtest-port.h">
+      <Filter>gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\internal\gtest-string.h">
+      <Filter>gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\internal\gtest-tuple.h">
+      <Filter>gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\internal\gtest-type-util.h">
+      <Filter>gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\gtest.h">
+      <Filter>gtest\include\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\gtest_pred_impl.h">
+      <Filter>gtest\include\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\gtest_prod.h">
+      <Filter>gtest\include\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\gtest-death-test.h">
+      <Filter>gtest\include\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\gtest-message.h">
+      <Filter>gtest\include\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\gtest-param-test.h">
+      <Filter>gtest\include\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\gtest-printers.h">
+      <Filter>gtest\include\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\gtest-spi.h">
+      <Filter>gtest\include\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\gtest-test-part.h">
+      <Filter>gtest\include\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\gtest-typed-test.h">
+      <Filter>gtest\include\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\src\gtest-internal-inl.h">
+      <Filter>gtest\src</Filter>
+    </ClInclude>
+    <ClInclude Include="datastruct\binarySearchTree.h">
+      <Filter>datastruct</Filter>
+    </ClInclude>
+    <ClInclude Include="datastruct\heap.h">
+      <Filter>datastruct</Filter>
+    </ClInclude>
+    <ClInclude Include="dynamic\dynamic.h">
+      <Filter>dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\adjacencyList.h">
+      <Filter>graph</Filter>
+    </ClInclude>
+    <ClInclude Include="greedy\greedy.h">
+      <Filter>greedy</Filter>
+    </ClInclude>
+    <ClInclude Include="recursion\recursion.h">
+      <Filter>recursion</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\graph.h">
+      <Filter>graph</Filter>
+    </ClInclude>
+    <ClInclude Include="datastruct\datastruct.h">
+      <Filter>datastruct</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\undirectedAdjacencyList.h">
+      <Filter>graph</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\misc.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="common\common.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="greedy\unionFind.h">
+      <Filter>greedy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gtest\src\gtest.cc">
+      <Filter>gtest\src</Filter>
+    </ClCompile>
+    <ClCompile Include="gtest\src\gtest_main.cc">
+      <Filter>gtest\src</Filter>
+    </ClCompile>
+    <ClCompile Include="gtest\src\gtest-all.cc">
+      <Filter>gtest\src</Filter>
+    </ClCompile>
+    <ClCompile Include="gtest\src\gtest-death-test.cc">
+      <Filter>gtest\src</Filter>
+    </ClCompile>
+    <ClCompile Include="gtest\src\gtest-filepath.cc">
+      <Filter>gtest\src</Filter>
+    </ClCompile>
+    <ClCompile Include="gtest\src\gtest-port.cc">
+      <Filter>gtest\src</Filter>
+    </ClCompile>
+    <ClCompile Include="gtest\src\gtest-printers.cc">
+      <Filter>gtest\src</Filter>
+    </ClCompile>
+    <ClCompile Include="gtest\src\gtest-test-part.cc">
+      <Filter>gtest\src</Filter>
+    </ClCompile>
+    <ClCompile Include="gtest\src\gtest-typed-test.cc">
+      <Filter>gtest\src</Filter>
+    </ClCompile>
+    <ClCompile Include="datastructTests.cpp" />
+    <ClCompile Include="dynamicTests.cpp" />
+    <ClCompile Include="graphTests.cpp" />
+    <ClCompile Include="greedyTests.cpp" />
+    <ClCompile Include="recursionTests.cpp" />
+    <ClCompile Include="datastruct\medianMaintenance.cpp">
+      <Filter>datastruct</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamic\bellmanFord.cpp">
+      <Filter>dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamic\floydWarshall.cpp">
+      <Filter>dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamic\independentSets.cpp">
+      <Filter>dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamic\knapsack.cpp">
+      <Filter>dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamic\optimalBST.cpp">
+      <Filter>dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamic\sequenceAlignment.cpp">
+      <Filter>dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\adjacencyList.cpp">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\breadthFirstSearch.cpp">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\depthFirstSearch.cpp">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\djikstra.cpp">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\kargersContraction.cpp">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\SCCnonRecursive.cpp">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\stronglyConnectedComponents.cpp">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\topologicalSort.cpp">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="greedy\clustering.cpp">
+      <Filter>greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="greedy\prims.cpp">
+      <Filter>greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="greedy\scheduling.cpp">
+      <Filter>greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="recursion\inversions.cpp">
+      <Filter>recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="recursion\karatsuba.cpp">
+      <Filter>recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="recursion\mergesort.cpp">
+      <Filter>recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="recursion\quicksort.cpp">
+      <Filter>recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\undirectedAdjacencyList.cpp">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="miscTests.cpp" />
+    <ClCompile Include="misc\thirdGradeMultiplication.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="common\common.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamic\travelingSalesman.cpp">
+      <Filter>dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\2SatScc.cpp">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="greedy\huffmanEncoding.cpp">
+      <Filter>greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamic\matrixChainMultiplication.cpp">
+      <Filter>dynamic</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

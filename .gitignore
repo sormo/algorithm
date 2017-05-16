@@ -1,0 +1,15 @@
+Debug
+Release
+x64
+*.opensdf
+*.suo
+*.sdf
+*.user
+test_detail.xml
+*.VC.db
+*.opendb
+*.vspx
+*.exe
+*.psess
+.vs
+.vscode
